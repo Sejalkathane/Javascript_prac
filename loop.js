@@ -81,38 +81,38 @@
 
 
 
-const leetfreq= (phrase) => {
-    // 'haha'
-    console.log(phrase);
+// const leetfreq= (phrase) => {
+//     // 'haha'
+//     console.log(phrase);
 
-    let freq={}
-    for(const letter of phrase)
-    {
-        // console.log(letter);
+//     let freq={}
+//     for(const letter of phrase)
+//     {
+//         // console.log(letter);
 
-        if(letter in freq)
-        {
-            // freq[letter]=freq[letter]+1;
-            freq[letter]++;
+//         if(letter in freq)
+//         {
+//             // freq[letter]=freq[letter]+1;
+//             freq[letter]++;
 
-        }
-        else{
-            freq[letter]=1
-        }
-    }
-   return freq;
+//         }
+//         else{
+//             freq[letter]=1
+//         }
+//     }
+//    return freq;
 
-}
+// }
 
-console.log(leetfreq('hey, hi my name is sejal kathane'));
-
-
+// console.log(leetfreq('hey, hi my name is sejal kathane'));
 
 
-const wordfreq = (phrase) => {
-//   let freq = {};
 
-  const word = phrase.split(' ');
+
+// const wordfreq = (phrase) => {
+// //   let freq = {};
+
+//   const word = phrase.split(' ');
 
 //   for (const wo of word) {
 //     console.log(wo);
@@ -128,11 +128,26 @@ const wordfreq = (phrase) => {
 //   return freq;
 
 
-return leetfreq(word);
-};
+// return leetfreq(word);
+// };
+
+// const userinput =prompt ("Write you sen :: ")
+// console.log(wordfreq(userinput));
 
 
-const userinput =promphi ("Write you sen :: ")
-console.log(wordfreq(userinput));
 
 
+
+
+
+
+
+
+
+//excersice::
+// convert hr to sec
+
+
+let hr=12;
+
+console.log(hr*60*60);
