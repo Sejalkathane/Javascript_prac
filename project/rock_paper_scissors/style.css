@@ -1,0 +1,72 @@
+body{
+    /* background-image: linear-gradient(rgb(245, 255, 206),rgb(158, 183, 16)); */
+    width: auto;
+    height: 940px;
+}
+
+.all
+{
+    height: 600px;
+    width: 660px;
+    color: white;
+    background: #ff0051;
+    border-radius: 10px;
+    padding: 1.2rem;
+    margin: 100px auto;
+}
+
+.inst{
+    margin: 20px;
+    padding: 30px;
+}
+
+.inst button{
+    width: 120px;
+    height: 120px;
+    margin: 30px;
+    font-size: 80px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 5px rgb(242, 255, 0);
+    border: none;
+    cursor: pointer;
+}
+
+#clear-game{
+    margin-left: 250px;
+    width: 130px;
+    height: 130px;
+    font-size: 25px;
+    background-color: rgb(232, 255, 104);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px 10px red;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+#result{
+    /* background-color: blue; */
+    width: auto;
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+#hands{
+    /* background-color:blue; */
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+
+#player-score{
+    /* background-color:blue ; */
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600; margin: 10px;
+}

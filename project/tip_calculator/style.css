@@ -1,0 +1,106 @@
+* {
+  font-family: "M PLUS Rounded 1c", Avenir Next, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  background: #8990ec;
+}
+
+.wrapper {
+  height: 600px;
+  width: 660px;
+  color: white;
+  background: #272639;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  margin: 100px auto;
+}
+
+#topcontainer {
+  margin-top: 4rem;
+}
+
+.container {
+  margin-top: 1.4rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+
+.inputcontainer {
+  background: #353959;
+  border-radius: 2.8rem;
+  padding: 0 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+span {
+  font-size: 1.7rem;
+}
+
+#billtotalinput,
+#tipinput {
+  font-size: 2.4rem;
+  background: none;
+  border: none;
+  outline: none;
+  padding: none;
+}
+
+.buttoncontainer {
+  background: #8990ec;
+  display: grid;
+  place-items: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+}
+
+.splitbutton {
+  background: none;
+  border: none;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.splitbutton {
+  font-size: 1.6rem;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+}
+
+.buttontext {
+  color: #000000 !important;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.splitamount {
+  font-size: 3.2rem;
+  margin: 0.8rem;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.total {
+  font-size: 4rem;
+}
