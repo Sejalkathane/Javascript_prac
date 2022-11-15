@@ -1,0 +1,14 @@
+.color{
+color: blue;
+}
+
+.dim{
+    
+    background-color: yellow;
+}
+
+#box{
+    height: 1200px;
+    width: 1200px;
+    background-color: chocolate;
+}
